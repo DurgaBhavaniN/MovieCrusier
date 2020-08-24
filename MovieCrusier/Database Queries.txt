@@ -1,6 +1,5 @@
 create database MovieCrusier
 create table Movies(MovieId int identity(1,1),MovieName varchar(10),BoxOffice varchar(20),Active varchar(10),DateOfLaunch datetime,Genre varchar(10),HasTeaser varchar(10));
-create table Customer(UserId integer ,UserName varchar(10),Password varchar(10),City varchar(10));
 create table Favourite(FavouriteId int identity(1,1),MovieName varchar(10),BoxOffice varchar(20),Active varchar(10),DateOfLaunch datetime,Genre varchar(10),HasTeaser varchar(10),MovieId integer);
 
 
